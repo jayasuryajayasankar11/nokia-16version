@@ -155,12 +155,12 @@ export class RcmainComponent implements OnInit {
         document.body.removeChild(link);
         window.URL.revokeObjectURL(blobUrl);
 
-        alert('Template downloaded successfully');
+        this.openDialog('Template downloaded successfully');
         this.loading = false;
       },
       error => {
         console.error('Error downloading template:', error);
-        alert('Failed to download the template');
+        this.openDialog('Failed to download the template');
         this.loading = false;
       }
     );
