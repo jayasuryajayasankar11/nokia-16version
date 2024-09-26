@@ -32,11 +32,13 @@
     
 }
 .login p{
-
+    margin: 10px;
     font-size: 18px;
 }
 .login h2{
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .form-login{
