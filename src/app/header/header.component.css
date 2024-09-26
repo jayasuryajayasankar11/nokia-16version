@@ -18,24 +18,28 @@
     border-radius: 5px;
     justify-content: space-between;
     background:linear-gradient(to right, white,rgb(48, 48, 216));
-   
+   align-items: center;
     
-    
+    text-align: center;
 }
-.top h3{
+.top h2{
     padding-right: 20px;
     color: white;
+   text-align: center;
+   margin: 10px 0px;
 }
-.top h3 a{
+.top h2 a{
     text-decoration: none;
     color: white;
-    
+    text-align: center;
    
    
 }
 .btm{
     max-width: 1500px;
     border-radius: 5px;
+  
+    
 }
 
 .btm .list {
