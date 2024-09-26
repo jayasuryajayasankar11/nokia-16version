@@ -1,0 +1,27 @@
+.uploaded-data{
+    width: 1100px;
+    margin: auto;
+   
+}
+
+.tbl-flex{
+    display: flex;
+    flex-wrap: wrap;
+   overflow: scroll;
+}
+
+.tbl-flex table{
+    max-width: 1100px;
+    margin: auto;
+
+    
+}
+
+
+.tbl-flex table,thead,tr,th,tbody,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+    
+}

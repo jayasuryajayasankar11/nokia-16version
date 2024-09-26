@@ -1,0 +1,50 @@
+<div class="uploaded-data">
+    <h3>Uploaded Data</h3>
+   <div class="tbl-flex">
+    <table>
+        <thead>
+          <tr>
+            <th>Part Code</th>
+            <th>Description</th>
+            <th>uom</th>
+            <th>active_ordering</th>
+            <th>component_usage</th>
+            <th>type_of_component</th>
+            <th>ROHS Status</th>
+            <th>leadtime</th>
+            <th>MSD Status</th>
+            <th>bgvalue</th>
+            <th>Product Group</th>
+            <th>Product Family</th>
+            <th>TH Limit</th>
+            <th>Product Name</th>
+            <th>Location</th>
+            <th>Compatibility</th>
+            <th>Unit Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data">
+            <td>{{ item.partCode }}</td>
+            <td>{{ item.description }}</td>
+            <td>{{ item.umo }}</td>
+            <td>{{ item.active_ordering }}</td>
+            <td>{{ item.component_usage }}</td>
+            <td>{{ item.type_of_component }}</td>
+            <td>{{ item.rohsStatus }}</td>
+            <td>{{ item.leadtime }}</td>
+            <td>{{ item.msdStatus }}</td>
+            <td>{{ item.bgvalue }}</td>
+            <td>{{ item.productGroup }}</td>
+            <td>{{ item.productFamily }}</td>
+            <td>{{ item.thLimit }}</td>
+            <td>{{ item.productName }}</td>
+            <td>{{ item.location }}</td>
+            <td>{{ item.compatibility }}</td>
+            <td>{{ item.unitPrice }}</td>
+          </tr>
+        </tbody>
+      </table>
+   </div>
+  </div>
+  
